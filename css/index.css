@@ -166,6 +166,11 @@ hr {
 address {
   font-size: 1.4rem;
 }
+figcaption {
+  color: black;
+  text-decoration: none;
+  margin-top: 5px;
+}
 .home-header {
   display: flex;
   justify-content: center;
@@ -301,4 +306,17 @@ address {
 }
 .projects .last {
   border: none;
+}
+.deployed-button {
+  padding: 5px 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+  margin-left: 140px;
+  cursor: pointer;
+}
+.project-image {
+  border: 1px solid black;
 }
